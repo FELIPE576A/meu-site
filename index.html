@@ -6,74 +6,66 @@
     <title>Felipe Andrade - Web Designer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4; /* Fundo claro */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff; /* Fundo branco */
             margin: 0;
             padding: 0;
             color: #333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        }
+        header {
+            background-color: #4a90e2; /* Azul */
+            color: white;
+            padding: 40px 0;
             text-align: center;
         }
-        .banner {
-            width: 100%;
-            height: 400px;
-            background-image: url('https://images.unsplash.com/photo-1601960715007-5557e3d4f35a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHdlYiUyMGRlc2lnbnxlbnwwfHx8fDE2NzM2MTQ3NjI&ixlib=rb-1.2.1&q=80&w=1080');
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
+        header h1 {
+            margin: 0;
             font-size: 2.5em;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        header p {
+            font-size: 1.2em;
         }
         .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            margin-top: -50px; /* Sobrepõe o banner */
-            width: 90%;
             max-width: 900px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            background-color: #f9f9f9; /* Fundo claro */
         }
         h2 {
-            color: #2c3e50; /* Azul escuro */
-            margin: 20px 0;
+            color: #333;
+            text-align: center;
         }
         .service {
-            background-color: #e7e7e7;
-            border-radius: 5px;
+            background-color: #ffffff;
+            border-radius: 8px;
             padding: 20px;
-            margin: 10px 0;
-            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+            margin: 15px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
         }
         .service:hover {
-            transform: scale(1.05);
+            transform: translateY(-5px);
         }
         .service img {
             max-width: 100%;
-            border-radius: 5px;
-            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .service h3 {
+            color: #4a90e2;
+            margin: 10px 0;
         }
         p {
-            color: #555;
-            margin: 10px 0;
-            text-align: center;
+            color: #666;
+            text-align: justify;
         }
         .contact {
+            text-align: center;
             margin-top: 30px;
         }
         .button {
-            background-color: #2980b9; /* Azul padrão */
+            background-color: #4a90e2; /* Azul padrão */
             color: white;
             padding: 10px 20px;
             border: none;
@@ -83,35 +75,35 @@
             transition: background-color 0.3s;
         }
         .button:hover {
-            background-color: #1a6e97; /* Efeito hover */
+            background-color: #357ab8; /* Efeito hover */
         }
     </style>
 </head>
 <body>
-    <div class="banner">
+    <header>
         <h1>Felipe Andrade</h1>
         <p>Web Designer Profissional</p>
-    </div>
+    </header>
     <div class="container">
         <h2>Bem-vindo ao meu site!</h2>
-        <p>Sou web designer e estou aqui para te ajudar com soluções criativas e eficazes.</p>
+        <p>Sou um web designer apaixonado por criar soluções criativas e eficazes que ajudem a destacar seu projeto. Confira abaixo alguns dos serviços que ofereço.</p>
         
         <div class="service">
             <img src="https://images.unsplash.com/photo-1587339533651-ec0f3a3b8b2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDczfHxydWV0ZXxlbnwwfHx8fDE2NzM2MTQ3NjI&ixlib=rb-1.2.1&q=80&w=400" alt="Design Responsivo">
             <h3>Design Responsivo</h3>
-            <p>Layouts que se adaptam a diferentes tamanhos de tela.</p>
+            <p>Crio layouts que se adaptam a diferentes tamanhos de tela, garantindo uma ótima experiência em qualquer dispositivo.</p>
         </div>
         
         <div class="service">
             <img src="https://images.unsplash.com/photo-1511602290802-43b3d6b0e5b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwM3x8dHlwZSUyMHRleHR8ZW58MHx8fHwxNjczNjE0NzYy&ixlib=rb-1.2.1&q=80&w=400" alt="UX/UI">
             <h3>UX/UI</h3>
-            <p>Foco na experiência do usuário para sites funcionais.</p>
+            <p>Foco na experiência do usuário para garantir que seu site seja fácil de navegar e atraente visualmente.</p>
         </div>
         
         <div class="service">
             <img src="https://images.unsplash.com/photo-1532073435038-4aabe25f8c04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDI2fHx3ZWIlMjBkdXN0ZSUyMGxvZ3xlbnwwfHx8fDE2NzM2MTQ3NjI&ixlib=rb-1.2.1&q=80&w=400" alt="Branding">
             <h3>Branding</h3>
-            <p>Criando identidades visuais que se destacam.</p>
+            <p>Criando identidades visuais que se destacam e contam a história da sua marca.</p>
         </div>
 
         <div class="contact">
