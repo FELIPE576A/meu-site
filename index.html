@@ -3,129 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Felipe Andrade - Web Designer</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #e9ecef; /* Fundo suave */
-            margin: 0;
-            padding: 0;
-            color: #343a40;
-        }
-        header {
-            background-color: #6f42c1; /* Roxo */
-            color: white;
-            padding: 60px 0;
-            text-align: center;
-            border-bottom: 5px solid #5a3291; /* Bordas */
-        }
-        header h1 {
-            margin: 0;
-            font-size: 3em;
-            letter-spacing: 2px;
-        }
-        header p {
-            font-size: 1.3em;
-            margin-top: 10px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-            background-color: #ffffff; /* Fundo branco para o conteúdo */
-        }
-        h2 {
-            color: #6f42c1; /* Roxo */
-            text-align: center;
-            margin-bottom: 20px;
-            font-size: 2em;
-        }
-        .service {
-            background-color: #f8f9fa; /* Fundo claro para serviços */
-            border-radius: 10px;
-            padding: 20px;
-            margin: 15px 0;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
-        }
-        .service:hover {
-            transform: translateY(-5px);
-        }
-        .service img {
-            max-width: 100%;
-            border-radius: 10px;
-            margin-bottom: 15px;
-            border: 3px solid #6f42c1; /* Bordas nas imagens */
-        }
-        .service h3 {
-            color: #6f42c1; /* Roxo */
-            margin: 10px 0;
-            font-size: 1.5em;
-        }
-        p {
-            color: #495057;
-            text-align: justify;
-            line-height: 1.6;
-        }
-        .contact {
-            text-align: center;
-            margin-top: 30px;
-        }
-        .button {
-            background-color: #6f42c1; /* Azul roxo */
-            color: white;
-            padding: 12px 25px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            font-size: 1.1em;
-            transition: background-color 0.3s, transform 0.3s;
-        }
-        .button:hover {
-            background-color: #5a3291; /* Efeito hover */
-            transform: scale(1.05);
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Minha Rede Social</title>
 </head>
 <body>
     <header>
-        <h1>Felipe Andrade</h1>
-        <p>Web Designer Profissional</p>
+        <h1>Minha Rede Social</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Mensagens</a></li>
+                <li><a href="#">Configurações</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="container">
-        <h2>Bem-vindo ao meu site!</h2>
-        <p>Sou um web designer apaixonado por criar soluções criativas e eficazes que ajudem a destacar seu projeto. Confira abaixo alguns dos serviços que ofereço.</p>
-        
-        <div class="service">
-            <img src="https://images.unsplash.com/photo-1587339533651-ec0f3a3b8b2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDczfHxydWV0ZXxlbnwwfHx8fDE2NzM2MTQ3NjI&ixlib=rb-1.2.1&q=80&w=400" alt="Design Responsivo">
-            <h3>Design Responsivo</h3>
-            <p>Crio layouts que se adaptam a diferentes tamanhos de tela, garantindo uma ótima experiência em qualquer dispositivo.</p>
-        </div>
-        
-        <div class="service">
-            <img src="https://images.unsplash.com/photo-1511602290802-43b3d6b0e5b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwM3x8dHlwZSUyMHRleHR8ZW58MHx8fHwxNjczNjE0NzYy&ixlib=rb-1.2.1&q=80&w=400" alt="UX/UI">
-            <h3>UX/UI</h3>
-            <p>Foco na experiência do usuário para garantir que seu site seja fácil de navegar e atraente visualmente.</p>
-        </div>
-        
-        <div class="service">
-            <img src="https://images.unsplash.com/photo-1532073435038-4aabe25f8c04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDI2fHx3ZWIlMjBkdXN0ZSUyMGxvZ3xlbnwwfHx8fDE2NzM2MTQ3NjI&ixlib=rb-1.2.1&q=80&w=400" alt="Branding">
-            <h3>Branding</h3>
-            <p>Criando identidades visuais que se destacam e contam a história da sua marca.</p>
-        </div>
-
-        <div class="contact">
-            <h3>Entre em Contato</h3>
-            <p>Se você está interessado em saber mais, clique no botão abaixo!</p>
-            <a href="mailto:seuemail@exemplo.com" class="button">Contate-me</a>
-        </div>
-    </div>
+    <main>
+        <aside>
+            <h2>Usuários Online</h2>
+            <ul>
+                <li>João</li>
+                <li>Maria</li>
+                <li>Ana</li>
+                <li>Pedro</li>
+            </ul>
+        </aside>
+        <section class="posts">
+            <h2>Postagens</h2>
+            <article>
+                <h3>Primeiro Post</h3>
+                <p>Olá, este é meu primeiro post na rede social!</p>
+            </article>
+            <article>
+                <h3>Segundo Post</h3>
+                <p>Estou adorando interagir com todos aqui!</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Minha Rede Social. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
-
 
 
 
